@@ -22,5 +22,11 @@
     "scripts": {
         "prestart": "npm install & mvn clean package",
         "pretest": "npm install"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "resolutions": {
+        "color": "4.2.3"
     }
 }
